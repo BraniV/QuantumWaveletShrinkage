@@ -1,2 +1,2 @@
 # QuantumWaveletShrinkage
-Jupyter notebooks with Qiskit 2.x Examples of Quantum Wavelet Shrinkage
+Jupyter notebooks with Qiskit 2.x Examples in Quantum Wavelet Shrinkage
