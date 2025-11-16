@@ -1,5 +1,3 @@
-# QuantumWaveletShrinkage
-Jupyter notebooks with Qiskit 2.x Examples in Quantum Wavelet Shrinkage
 # 🧠 Quantum Wavelet Shrinkage
 
 This repository accompanies the research paper  
@@ -32,3 +30,77 @@ To reproduce the notebooks locally:
 ```bash
 conda create -n qiskit2 python=3.10
 conda activate qiskit2
+```
+
+### 2️⃣  Install Jupyter
+```bash
+conda install jupyterlab
+# or
+conda install notebook
+```
+
+### 3️⃣  Install Qiskit 2.x and dependencies
+```bash
+pip install qiskit==2.*
+pip install qiskit[visualization]
+```
+
+### 4️⃣  Add supporting libraries
+```bash
+pip install numpy matplotlib seaborn pylatexenc ipywidgets
+```
+
+### 5️⃣  Register the kernel for Jupyter
+```bash
+python -m ipykernel install --user --name qiskit2 --display-name "Qiskit 2.x"
+```
+
+### 6️⃣  Launch Jupyter
+```bash
+jupyter lab
+# or
+jupyter notebook
+```
+In Jupyter, choose **Kernel → Change Kernel → Qiskit 2.x**.
+
+---
+
+## ✅ Quick Test
+```python
+from qiskit import QuantumCircuit
+qc = QuantumCircuit(2)
+qc.h(0)
+qc.cx(0, 1)
+qc.draw('mpl')
+```
+If you see the circuit diagram, your installation works correctly.
+
+---
+
+## ⚙️ Optional Extras
+
+- **Aer simulator** (faster local simulation)
+  ```bash
+  pip install qiskit-aer
+  ```
+- **IBM Runtime** (real-hardware execution)
+  ```bash
+  pip install qiskit-ibm-runtime
+  ```
+
+---
+
+## 📘 Reproducibility and Citation
+
+All notebooks are compatible with **Qiskit 2.x** and **Python 3.10**.  
+They are designed for clarity and reproducibility in both research and teaching.  
+
+If you use these materials, please cite:
+
+> B. Vidakovic, *Quantum Wavelet Shrinkage*, Texas A&M University, 2025.
+
+---
+
+*Author — Brani Vidakovic*  
+*Department of Statistics, Texas A&M University*
+
