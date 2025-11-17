@@ -13,9 +13,9 @@ All examples are written in **Qiskit 2.x** and can be executed locally or on IBM
 
 | Notebook | Description |
 |-----------|--------------|
-| **QWShrink01.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
-| **QWShrink02.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
-| **QWShrink03.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink01.ipynb** | Applies DAUB2 8x8 for 3 cubits as a single gate and compares the results with classical approaces.  |
+| **QWShrink02.ipynb** | Quantum Haar Wavelet Transform (3 levels) via factorized circuit Hadamards + (zero-)controlled Hadamards|
+| **QWShrink03.ipynb** | Quantum expectation and Kraus phase damping with data dependent strength|
 | **QWShrink04.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
 | **QWShrink05.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
 | **QWShrink06.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
