@@ -1,7 +1,7 @@
 # 🧠 Quantum Wavelet Shrinkage
 
-This repository accompanies the research paper  
-**“Quantum Wavelet Shrinkage”** by *Brani Vidakovic (Texas A&M University)*.
+This repository accompanies the manuscript  
+**“Quantum Wavelet Shrinkage”** by *Brani Vidakovic (Technical Report, Texas A&M University)*.
 
 It demonstrates how classical wavelet denoising can be formulated and implemented in the **quantum domain**, using controlled decoherence, ancilla-driven channels, and expectation-value encoding to realize shrinkage operations on quantum states.  
 
