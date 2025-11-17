@@ -15,15 +15,15 @@ All examples are written in **Qiskit 2.x** and can be executed locally or on IBM
 |-----------|--------------|
 | **QWShrink01.ipynb** | Applies DAUB2 8x8 for 3 cubits as a single gate and compares the results with classical approaces.  |
 | **QWShrink02.ipynb** | Quantum Haar Wavelet Transform (3 levels) via factorized circuit Hadamards + (zero-)controlled Hadamards|
-| **QWShrink03.ipynb** | Quantum expectation and Kraus phase damping with data dependent strength|
-| **QWShrink04.ipynb** | Kraus style shrinkage of Doppler signal (postselected diagonal) |
-| **QWShrink05.ipynb** | CPTP Density shrinkage with ancilla sink on Doppler signal  |
+| **QWShrink03.ipynb** | Quantum expectation and Kraus phase damping with data dependent strength.|
+| **QWShrink04.ipynb** | Kraus style shrinkage of Doppler signal (postselected diagonal). |
+| **QWShrink05.ipynb** | CPTP Density shrinkage with ancilla sink on Doppler signal.  |
 | **QWShrink06.ipynb** | Blocks signal: K_0 postselected diagonal attenuation and CPTP ancilla sink.  |
 | **QWShrink07.ipynb** | Haar 8x8 as a Givens-based QWT. Verification with classical result.  |
-| **QWShrink08.ipynb** | Quantum flagging. Selection of wavelet coefs with P(flag=1) |
-| **QWShrink09.ipynb** | Soft-threshold flagging. P(flag=1)=max(\|d\|-lambda,0) via a rotating an ancilla.  |
-| **QWShrink10.ipynb** | Quantum amplitude damping via smooth shrinkage. Rescaled \|d_i\|<1, d_i -> sign(d_i)\|d_i\|^gamma. |
-| **QWShrink11.ipynb** | Quantum amplitude damping via a soft thresholding $\alpha$  |
+| **QWShrink08.ipynb** | Quantum flagging. Selection of wavelet coefs with $P(flag=1).$ |
+| **QWShrink09.ipynb** | Soft-threshold flagging. $P(flag=1)=\max(\|d\|-\lambda,0)$ via a rotating an ancilla.  |
+| **QWShrink10.ipynb** | Quantum amplitude damping via smooth shrinkage. Rescaled $\|d_i\|<1, d_i \rightarrow \sign(d_i)\|d_i\|^\gamma. $ |
+| **QWShrink11.ipynb** | Quantum amplitude damping via a soft thresholding.  |
 
 
 
