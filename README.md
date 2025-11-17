@@ -16,10 +16,10 @@ All examples are written in **Qiskit 2.x** and can be executed locally or on IBM
 | **QWShrink01.ipynb** | Applies DAUB2 8x8 for 3 cubits as a single gate and compares the results with classical approaces.  |
 | **QWShrink02.ipynb** | Quantum Haar Wavelet Transform (3 levels) via factorized circuit Hadamards + (zero-)controlled Hadamards|
 | **QWShrink03.ipynb** | Quantum expectation and Kraus phase damping with data dependent strength|
-| **QWShrink04.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
-| **QWShrink05.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
-| **QWShrink06.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
-| **QWShrink07.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink04.ipynb** | Kraus style shrinkage of Doppler signal (postselected diagonal) |
+| **QWShrink05.ipynb** | CPTP Density shrinkage with ancilla sink on Doppler signal  |
+| **QWShrink06.ipynb** | Blocks signal: K_0 postselected diagonal attenuation and CPTP ancilla sink.  |
+| **QWShrink07.ipynb** | Haar 8x8 as a Givens-based QWT. Verification with classical result.  |
 | **QWShrink08.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
 | **QWShrink09.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
 | **QWShrink10.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
