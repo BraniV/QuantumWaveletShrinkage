@@ -13,9 +13,19 @@ All examples are written in **Qiskit 2.x** and can be executed locally or on IBM
 
 | Notebook | Description |
 |-----------|--------------|
-| **QThreshold13.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven denoising. |
-| **QThreshold16a.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels (`T₂` and random Pauli-Z). |
-| *(more notebooks forthcoming)* | Demonstrations of channel-based and ancilla-driven shrinkage methods. |
+| **QWShrink01.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink02.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
+| **QWShrink03.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink04.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
+| **QWShrink05.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink06.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
+| **QWShrink07.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink08.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
+| **QWShrink09.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+| **QWShrink10.ipynb** | Phase-damping shrinkage using Kraus and hardware-realizable channels |
+| **QWShrink11.ipynb** | Basic Helstrom-based quantum thresholding with measurement-driven   |
+
+
 
 All notebooks are executable and annotated for instructional use.  
 They can also be viewed online through **nbviewer** or **Google Colab**.
