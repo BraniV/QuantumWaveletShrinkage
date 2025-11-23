@@ -24,8 +24,7 @@ All examples are written in **Qiskit 2.x** and can be executed locally or on IBM
 | **QWShrink09.ipynb** | Soft-threshold flagging. $P(flag=1)=\max(\|d\|-\lambda,0)$ via a rotating an ancilla.  |
 | **QWShrink10.ipynb** | Quantum amplitude damping via smooth shrinkage. Rescaled $\|d_i\|<1, d_i \rightarrow sign(d_i)\|d_i\|^\gamma. $ |
 | **QWShrink11.ipynb** | Quantum amplitude damping via a soft thresholding.  |
-
-
+| **QWShrink12.ipynb** | Data encoding.  |
 
 All notebooks are executable and annotated for instructional use.  
 They can also be viewed online through **nbviewer** or **Google Colab**.
